@@ -1,0 +1,241 @@
+.title {
+  width: 150px;
+  margin: auto;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+#top-title {
+  font-family: Tahoma;
+  font-size: 50px;
+  width: 0px;
+  margin-top: 100px;
+  margin-left: 310px;
+}
+
+#bottom-title {
+  font-family: Tahoma;
+  font-size: 30px;
+  position: relative;
+  width: 100px;
+  margin-left: 360px;
+}
+
+.pizza {
+  position: absolute;
+  margin: left;
+  top: 20px;
+  right: 20px;
+  left: 20px;
+  bottom:20px;
+  height: 300px;
+  width: 300px;
+  background-color: #FFB10B;
+  border-radius: 50%;
+}
+.pizza:before{
+  content: '' ;
+  position: absolute;
+  margin: auto;
+  top: 20px;
+  right: 15px;
+  bottom: 20px;
+  left: 15px;
+  background-color: #FE4E4F;
+  border-radius: 50%;
+  height: 270px;
+  width: 270px;
+
+}
+
+.pizza:after{
+  content: '' ;
+  position: absolute;
+  margin: auto;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  background-color: #FFD72C;
+  border-radius: 50%;
+  height: 240px;
+  width: 240px;
+}
+
+.pepperoni {
+  z-index: 10;
+  position: absolute;
+  margin: left;
+  top: 250px;
+  left: 150px;
+  bottom: 5px;
+  right: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #AA4400;
+  border-radius: 50%;
+  box-shadow: -80px -60px 0 0 #AA4400, -60px -150px 0 0 #AA4400, -30px -100px 0 0 #AA4400, 20px -60px 0 0 #AA4400,
+  50px -120px 0 0 #AA4400, 80px -60px 0 0 #AA4400, 100px -100px 0 0 #AA4400,
+  -50px -30px 0 0 #AA4400, -10px -170px 0 0 #AA4400, 15px -100px 0 0 #AA4400;
+}
+
+.salami {
+	z-index: 10;
+  position: absolute;
+  margin: left;
+  top: 250px;
+  left: 120px;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  width: 20px;
+  border-left: 20px solid red;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  transform: rotate(45deg);
+}
+.salami1 {
+  z-index: 10;
+  position: absolute;
+  margin: left;
+  top: 180px;
+  left: 150px;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  width: 20px;
+  border-left: 20px solid red;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  transform: rotate(145deg);
+}
+.salami2 {
+  z-index: 10;
+  position: absolute;
+  margin: left;
+  top: 180;
+  left: 70px;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  width: 20px;
+  border-left: 20px solid red;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  transform: rotate(55deg);
+}
+.salami3 {
+  z-index: 10;
+  position: absolute;
+  margin: left;
+  top: 100px;
+  left: 160px;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  width: 20px;
+  border-left: 20px solid red;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  transform: rotate(125deg);
+}
+.salami4 {
+  z-index: 10;
+  position: absolute;
+  margin: left;
+  top: 110px;
+  left: 200px;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  width: 20px;
+  border-left: 20px solid red;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  transform: rotate(180deg);
+}
+.salami5 {
+  z-index: 10;
+  position: absolute;
+  margin: left;
+  top: 250px;
+  left: 190px;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  width: 20px;
+  border-left: 20px solid red;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  transform: rotate(45deg);
+}
+.salami6 {
+  z-index: 10;
+  position: absolute;
+  margin: left;
+  top: 210px;
+  left: 90px;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  width: 20px;
+  border-left: 20px solid red;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  transform: rotate(120deg);
+}
+.salami7 {
+  z-index: 10;
+  position: absolute;
+  margin: left;
+  top: 140px;
+  left: 110px;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  width: 20px;
+  border-left: 20px solid red;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  transform: rotate(90deg);
+}
+.salami8 {
+  z-index: 10;
+  position: absolute;
+  margin: left;
+  top: 90px;
+  left: 100px;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  width: 20px;
+  border-left: 20px solid red;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  transform: rotate(45deg);
+}
+.salami9 {
+  z-index: 10;
+  position: absolute;
+  margin: left;
+  top: 225px;
+  left: 180px;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  width: 20px;
+  border-left: 20px solid red;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  transform: rotate(180deg);
+}
